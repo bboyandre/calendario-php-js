@@ -58,7 +58,7 @@
         
         echo '<table border="0" width="100%">';
         foreach($arrayMes as $num => $mes){
-            echo '<tbody id="fundo" id="mes_'.$num.'" class="mes">';
+            echo '<tbody id="mes_'.$num.'" class="mes">';
             echo '<tr><td colspan="7">'.$mes.'</td></tr><tr>';
             foreach($diasSemana as $i => $day){
                 echo '<td>'.$day.'</td>';

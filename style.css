@@ -1,5 +1,7 @@
 body{
-    margin: 0;
+    margin-left: 10px;
+    max-width: 100%;
+    min-width: 240px;
     
 }
 .mes td{
@@ -7,7 +9,6 @@ body{
 }
 .mes{
     background-color: #10f010;
-   
     
     text-align: center;
 }
@@ -17,4 +18,10 @@ body{
     margin-left: 100px;
     border:solid 1px orange;
     width: 100px;
+}
+select{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    width: 180px;
 }

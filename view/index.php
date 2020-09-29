@@ -14,23 +14,22 @@
         <h1>CALENDARIO</h1>
         <div class="menu" id="">
             <select>
-                <option>TEMAS</option>
-                <option id="verde" onclick="mudarCor()">green</option>
-                <option id="cinza" onclick="mudarCor()">gray</option>
-                <option id="azul" onclick="mudarCor()">blue</option>
-                <option id="vermelho" onclick="mudarCor()">red</option>
-                <option id="laranja" onclick="mudarCor()">orange</option>
-                <option id="rosa" onclick="mudarCor()">pink</option>
+                <option id="padrao" onclick="corPadrao()">TEMAS</option>
+                <option id="verde" onclick="corVerde()" class="opt">green</option>
+                <option id="cinza" onclick="corCinza()" class="opt">gray</option>
+                <option id="azul" onclick="corAzul()" class="opt">blue</option>
+                <option id="vermelho" onclick="corVermelho()" class="opt">red</option>
+                <option id="laranja" onclick="corLaranja()" class="opt">orange</option>
+                <option id="rosa" onclick="corRosa()" class="opt">pink</option>
                 
             </select>
             <select>
-                <option>FONTES</option>
-                <option>arial</option>
-                <option>arial</option>
-                <option>arial</option>
-                <option>arial</option>
-                <option>arial</option>
-                <option>arial</option>
+                <option id="default" onclick="fontDefault()">FONTES</option>
+                <option id="arial" onclick="fonteArial()">arial</option>
+                <option id="timesNewRomam" onclick="fonteTimesNewRomam()">Times New Romam</option>
+                <option id="palatino" onclick="fontePalatino()">Palatino</option>
+                <option id="courier" onclick="fonteCourier()">Courier</option>
+                <option id="cursive" onclick="fonteCursive()">Cursive</option>
             
             </select>
         </div>

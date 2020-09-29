@@ -1,26 +1,66 @@
-function mudarCor(){
+function corPadrao(){
+    if(id="padrao"){
+        document.querySelectorAll(".mes").forEach(i => i.style.backgroundColor = '#10f010');
+    }
+};
+function fontDefault(){
+    if(id="default"){
+        document.querySelectorAll(".mes").forEach(i => i.style.fontFamily = '');
+    }
+};
+function corVerde(){
     if(id="verde"){
-        var obj=document.getElementById("fundo"); 
-        obj.style.backgroundColor='green';
-    }
+        document.querySelectorAll('.mes').forEach(i => i.style.backgroundColor = '#51ff03');
+        }
+    };
+function corCinza(){
     if(id="cinza"){
-        var obj=document.getElementById("fundo"); 
-        obj.style.backgroundColor = 'gray';
+        document.querySelectorAll(".mes").forEach(i => i.style.backgroundColor='gray');
+        }
+    };
+function corAzul(){
+    if(id="azul"){
+        document.querySelectorAll(".mes").forEach(i => i.style.backgroundColor='#368fee');
+        }
+    };
+function corVermelho(){
+    if(id="vermelho"){
+        document.querySelectorAll(".mes").forEach(i => i.style.backgroundColor='#ca3939');
+        }
+    };
+function corLaranja(){
+    if(id="laranja"){
+        document.querySelectorAll(".mes").forEach(i => i.style.backgroundColor='orange');
     }
-    else if(id="azul"){
-        var obj=document.getElementById("fundo"); 
-        obj.style.backgroundColor = 'blue';
+};
+function corRosa(){
+    if(id="rosa"){
+        document.querySelectorAll(".mes").forEach(i => i.style.backgroundColor='pink');
     }
-    else if(id="vermelho"){
-        var obj=document.getElementById("fundo"); 
-        obj.style.backgroundColor = 'red';
+};
+
+function fonteArial(){
+    if(id="arial"){
+        document.querySelectorAll(".mes").forEach(i => i.style.fontFamily = "Arial");
     }
-    else if(id="laranja"){
-        var obj=document.getElementById("fundo"); 
-        obj.style.backgroundColor = 'orange';
+};
+function fonteTimesNewRomam(){
+    if(id="timesNewRomam"){
+        document.querySelectorAll(".mes").forEach(i => i.style.fontFamily = "Times");
     }
-    else if(id="rosa"){
-        var obj=document.getElementById("fundo"); 
-        obj.style.backgroundColor = 'pink';
+};
+function fontePalatino(){
+    if(id="palatino"){
+        document.querySelectorAll(".mes").forEach(i => i.style.fontFamily = "Palatino");
+    }
+};
+function fonteCourier(){
+    if(id="courier"){
+        document.querySelectorAll(".mes").forEach(i => i.style.fontFamily = "Courier");
+    }
+};
+function fonteCursive(){
+    if(id="cursive"){
+        document.querySelectorAll(".mes").forEach(i => i.style.fontFamily = "Cursive");
     }
 };
