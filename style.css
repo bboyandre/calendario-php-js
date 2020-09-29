@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    
+}
+.mes td{
+    border: solid 1px white;
+}
+.mes{
+    background-color: #10f010;
+   
+    
+    text-align: center;
+}
+
+.cores{
+    margin-top: 100px;
+    margin-left: 100px;
+    border:solid 1px orange;
+    width: 100px;
+}
