@@ -1,5 +1,5 @@
 <?php
-    include '../controller/functions.php';
+    realpath(require_once(__DIR__).'/../controller/functions.php');
 ?>
 <html lang="en">
 <head>
@@ -43,6 +43,6 @@
             ?>
         
     </div>
-    <script src="../controller/functions.js"></script>
+    <script src="/controller/functions.js"></script>
 </body>
 </html>

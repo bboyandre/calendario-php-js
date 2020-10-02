@@ -1,0 +1,16 @@
+
+version: '3.7'
+services:
+  servico-php:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - ./calendario-php-js:/usr/src/calendario-php-js
+    working_dir: /usr/src/calendario-php-js
+    command:
+      - php
+      - -S
+      - 0.0.0.0:80
+    ports:
+      - 8005:80
